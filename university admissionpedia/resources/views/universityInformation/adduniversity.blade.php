@@ -70,7 +70,7 @@
 <label for="field1"><input type="text" style="width:500px" name="website" class="input-field" maxlength="255" required /></label>
 
 
-<h1 style="font-size:15px">GRE score (For foreigners)</h1>
+<h1 style="font-size:15px">SAT score (For foreigners)</h1>
 <label for="field1"><input type="text" style="width:500px" name="gre_score" class="input-field" maxlength="255" /></label>
 
 <label><span>&nbsp;</span><input type="submit" style="margin-left:-100px" value="Submit" /></label>

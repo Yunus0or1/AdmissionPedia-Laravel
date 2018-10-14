@@ -47,7 +47,7 @@
 <h1 style="margin-bottom:5px"> </h1>
 	
 
-<h1 style="font-size:15px">Enter your GRE score</br></h1>
+<h1 style="font-size:15px">Enter your SAT score</br></h1>
 
 <label for="field1"><input type="text" style="width:500px" value="" name="gre_score" class="input-field" maxlength="255"  required /></label>
 
