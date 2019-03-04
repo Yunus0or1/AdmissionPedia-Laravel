@@ -1,6 +1,6 @@
 This is a laravel project. So first install all the necessary laravel dependencies.
 To know how to install laravel you can find everything in this repository. 
-Git Link : ' https://github.com/Yunus0or1/Guidelines-How_TO/blob/master/How%20to%20install%20Laravel.  '
+Git Link : ' https://github.com/Yunus0or1/Guidelines-How_TO/blob/master/How%20to%20install%20Laravel  '
 As you are cloning this project from Github read how to reinstall a project after downloading from the git from
 the text file.
 
