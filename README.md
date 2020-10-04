@@ -36,43 +36,33 @@ They can easily find out suitable universities based on their GPA. Also they can
     - Engineering Universities demand aggregate GPA of Bangla + English + Physics + Math + Chemestry. If any university like DU,SUST does not require this kind of aggregate GPA then fill it with **0**.
     - SUST, DU deducts a portion of mark based on GPA. Fill it with that. 
     - Some universities accept SAT score. If any univeristy does not accept SAT score fill it with **9999**.
+    - Now to edit Unit of any particular universities **Edit University Details**. No complexity to understand this section.
+    - Many universities like DU, SUST they require GPA for units even for some subjects. Like SUST CSE requires **3.5 GPA** in Math at least. So every information must be fed accordingly in **Edit Unit Details**.
 
 
-Now to edit Unit of any particular universities 'Edit University Details'. Here is no more complexity.
-You can read and also understand what to do. 
+ - The project uses Email verification system. To set email verification system open .env file which is located in ***university admissionpedia*** folder. 
+   - Scroll down and find these.
+ 
+      ```
+      MAIL_DRIVER=smtp
+      MAIL_HOST=smtp.mailtrap.io
+      MAIL_PORT=2525
+      MAIL_USERNAME=null
+      MAIL_PASSWORD=null
+      MAIL_ENCRYPTION=null
+      ```	
+   
+   - Change according like this.
+     ```
+     MAIL_DRIVER=smtp
+     MAIL_HOST=smtp.gmail.com
+     MAIL_PORT=465
+     MAIL_USERNAME=Your email
+     MAIL_PASSWORD=email password [No apostrophe]
+     MAIL_ENCRYPTION=ssl
+     ```
+   - If you have router then you have to port forward **465**. Please google how to port forward according to your router config. If you do not want to take these kind of hassle just login with default credentials and then **Add New member**.
 
-Many universities like DU, SUST they require GPA for units even for some subjects. Like SUST CSE requires
-3.5 GPA in Math at least. So every information must be fed accordingly in 'Edit Unit Details'
-
-
-The project uses Email verification system. To set email verification system open .env file which is located in 
-university admissionpedia.Scroll down and find these :
-
-	MAIL_DRIVER=smtp
-	MAIL_HOST=smtp.mailtrap.io
-	MAIL_PORT=2525
-	MAIL_USERNAME=null
-	MAIL_PASSWORD=null
-	MAIL_ENCRYPTION=null
-
-	
-Change according like this : 
-
-	MAIL_DRIVER=smtp
-	MAIL_HOST=smtp.gmail.com
-	MAIL_PORT=465
-	MAIL_USERNAME=Your email
-	MAIL_PASSWORD=email password [No apostrophe]
-	MAIL_ENCRYPTION=ssl
-	
-If you have router then you have to port forward 465. Please google how to port forward according to your router config. If you do not want to take these kind of hassle just login with default credentials and then 
-'Add New member.'
-
-
-
-If you face any kind of bugs or issues feel free to email me : ahmedyunuspilot@gmail.com.
-
-******************************************** Happy Coding ********************************************
 
 
 
