@@ -23,8 +23,9 @@ They can easily find out suitable universities based on their GPA. Also they can
    - Next part comes about defining the unit names or Unit Description. I am giving you an example.
      ```
      Suppose the varsity full name is Shahjalal university of Science and Technology. 
-     Short name is : SUST. Unit : 3 units in total. They have three units: A for Commerce student , B for Science students, C unit where every one can apply.
-     So  in Unit Description you write like this : **A:C,B:S,C:A** This means A goes to Commerce, B goes to Science and C goes to All. 
+     Short name is : SUST. Unit : 3 units in total. They have three units: A for Commerce student ,
+     B for Science students, C unit where every one can apply. So  in Unit Description you write like 
+     this : **A:C,B:S,C:A** This means A goes to Commerce, B goes to Science and C goes to All. 
      These unit will show up when someone submit their GPA. 
      ```
      ```
